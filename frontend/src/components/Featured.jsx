@@ -5,8 +5,8 @@ import fetatureImg from "../assets/featured.jpg";
 const Featured = () => {
   return (
     <div
-      style={{ backgroundImage: `url(${fetatureImg})`, backgroundColor: 'rgba(0, 0, 0, 0.5)', backgroundBlendMode: 'darken'}}
-      className="bg-cover bg-center text-white pt-8 my-20"
+      style={{ backgroundImage: `url(${fetatureImg})`, backgroundColor: 'rgba(0, 0, 0, 0.5)', backgroundBlendMode: 'darken' }}
+      className="bg-fixed bg-center text-white pt-8 my-20"
     >
       <SectionTItle subHeading={"check it out"} heading={"Featured Item"} />
       <div className="md:flex justify-center items-center gap-8 px-6 md:px-20 lg:px-36 py-12 ">
